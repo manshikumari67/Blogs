@@ -6,7 +6,7 @@ const Blogs = () => {
   const { posts, loading } = useContext(AppContext);
 
   return (
-    <div className='w-11/12 h-full max-w-[670px] py-8 flex flex-col gap-y-7 mt-[66px] mb-[70px] justify-center items-center'>
+    <div className='w-11/12 h-screen max-w-[670px] py-8 flex flex-col gap-y-7 mt-[66px] mb-[70px] justify-center items-center'>
       {loading ? (
         <Spinner />
       ) : !Array.isArray(posts) || posts.length === 0 ? (
