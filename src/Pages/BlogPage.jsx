@@ -43,7 +43,7 @@ const BlogPage = () => {
 
 
   return (
-    <div>
+    <div >
       <Header/>
       <div>
         <button

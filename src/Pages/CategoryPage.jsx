@@ -12,7 +12,7 @@ const CategoryPage = () => {
 
 
   return (
-    <div>
+    <div >
       <Header/>
       <div>
         <button
